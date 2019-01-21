@@ -1,0 +1,171 @@
+.pic1{
+    background-image: url("product_01.png");
+}
+.pic2{
+    background-image: url("product_02.png");
+}
+.pic3{
+    background-image: url("product_03.png");
+}
+.pic{
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    z-index: 1;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.div1{
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+}
+.div1 button{
+    border-radius: 20px;
+}
+.x:hover > .div1{
+  display: block;
+  opacity: 1;
+}
+.x:hover > .pic{
+    opacity: 0.1;
+}
+.div-modal1{
+   padding-top: 30px;
+   padding-bottom: 50px;
+    height: 100%;
+    display: inline-block;
+    
+}
+.div-modal1 > img{
+    margin-left: 25%;
+}
+.div-modal2{
+    display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 50px;
+    height: 100%;
+    background-color: rgb(221, 210, 210);
+    
+}
+.div-modal-content{
+   width: 150%;
+   height: 85vh;
+}
+.div-modal-dialog{
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.div-small > div{
+    border: 1px solid grey;
+}
+.div-small img{
+    height: 110px;
+    margin-left: 10%;
+}
+.div-modal1 hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.div-awesome i{
+font-size: 30px;
+color: grey;
+}
+.first-nav{
+    background-color: rgb(131, 147, 148);
+}
+.second-nav{
+    background-color: rgb(149, 165, 166);
+}
+.first-nav a ,.first-nav p{
+    font-size:12px !important;
+    font-weight: bolder;
+    color: white;
+}
+.second-nav ul a{
+    font-size:12px !important;
+    font-weight: bolder;
+    color: white; 
+}
+#mojnavbar{
+    display: inline-block !important;
+}
+.dropdown-menu {
+    background-color: rgb(149, 165, 166);
+}
+.y h1{
+    z-index: 2;
+    position: absolute;
+    top:40%;
+    left:40%;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.item img{
+    z-index: 1;
+}
+.y{
+    position: relative;
+}
+.z h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.z hr{
+    border: 1px solid green;
+    width: 50%;
+}
+.z img{
+    width: 250px;
+    height: 250px !important;
+    border-radius: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.z{
+    height: 90vh;
+    background-color: white;
+}
+.z p{
+    color: grey;
+    font-style: italic;
+    padding-top: 30px;
+}
+.z > div{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.carousel-indicators > li{
+border: 1px solid black;
+}
+.carousel-indicators .active{
+    background-color: blueviolet;
+}
+.pad30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.awesome-div i{
+margin: 10px 5px;
+font-size: 30px;
+color: grey;
+}
+.text-grey p, .text-grey li{
+    color: grey;
+}
+.text-grey ul{
+    list-style: none;
+}
+.register img{
+   width: 100%;
+   height: 100vh; 
+}
+.register > div{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(105, 30, 115, 0.7), rgba(206, 21, 21, 0.3));
+}
